@@ -28,7 +28,7 @@ resource "tfe_variable" "env_vars_sensitive" {
   workspace_id = tfe_workspace.main.id
 }
 
-resource "tfe_variable" "tfvars_sensitive" {
+resource "tfe_variable" "tfvars_nonsensitive" {
   count        = length(var.tfe_vars_nonsensitive)
   key          = element(keys(var.tfe_vars_nonsensitive), count.index)
   value        = element(values(var.tfe_vars_nonsensitive), count.index)
