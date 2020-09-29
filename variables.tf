@@ -1,8 +1,8 @@
 # THESE VALUES CAN BE MANAGED WITHIN THE WORKSPACE ITSELF
 # The Values are unchanging in the 'Master' Workspace
 
-#variable "token" {
-#}
+variable "token" {
+}
 
 #variable "organization" {
 #}
