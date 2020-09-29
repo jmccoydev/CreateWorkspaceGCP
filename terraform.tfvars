@@ -1,13 +1,13 @@
 # THESE VALUES CAN BE MANAGED WITHIN THE WORKSPACE ITSELF
 # The Values are unchanging in the 'Master' Workspace
 
-token = "Terraform Enterprise API token"
+#token = "Terraform Enterprise API token"
 
-organization = "hc-solutions-engineering"
+#organization = "hc-solutions-engineering"
 
-vcs_repo = "VCS/Repo"
+#vcs_repo = "VCS/Repo"
 
-oauth_token_id = "oauth_token_id"
+#oauth_token_id = "oauth_token_id"
 
 
 # The Values can be changed for use in the newly-created Workspace
