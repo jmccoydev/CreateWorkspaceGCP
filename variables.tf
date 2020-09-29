@@ -1,21 +1,17 @@
 # THESE VALUES CAN BE MANAGED WITHIN THE WORKSPACE ITSELF
 # The Values are unchanging in the 'Master' Workspace
 
-variable "token" {
-type        = (string)
-}
+#variable "token" {
+#}
 
-variable "organization" {
-type        = (string)  
-}
+#variable "organization" {
+#}
 
-variable "vcs_repo" {
-type        = (string)
-}
+#variable "vcs_repo" {
+#}
 
-variable "oauth_token_id" {
-type        = (string)
-}
+#variable "oauth_token_id" {
+#}
 
 # The Values can be changed for use in the newly-created Workspace
 # Additional values could be added here (ex. branch, etc.)
