@@ -2,15 +2,19 @@
 # The Values are unchanging in the 'Master' Workspace
 
 variable "token" {
+type        = (string)
 }
 
 variable "organization" {
+type        = (string)  
 }
 
 variable "vcs_repo" {
+type        = (string)
 }
 
 variable "oauth_token_id" {
+type        = (string)
 }
 
 # The Values can be changed for use in the newly-created Workspace
