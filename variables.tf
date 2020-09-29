@@ -42,5 +42,3 @@ variable "env_vars_nonsensitive" {
   description = "Put all nonsensitive env variables here"
   default     = {}
 }
-
-
