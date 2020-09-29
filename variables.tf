@@ -16,8 +16,8 @@
 # The Values can be changed for use in the newly-created Workspace
 # Additional values could be added here (ex. branch, etc.)
 
-variable "workspace_name" {
-}
+#variable "workspace_name" {
+#}
 
 variable "tfe_vars_sensitive" {
   type        = map(string)
