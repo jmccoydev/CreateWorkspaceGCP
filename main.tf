@@ -1,4 +1,5 @@
 provider "tfe" {
+  version = "~> 0.15.0"
   token = var.token
 }
 
