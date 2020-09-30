@@ -17,7 +17,7 @@ variable "organization" {
 # Additional values could be added here (ex. branch, etc.)
 
 variable "workspace_name" {
-default     = {EasyWorkspacesCreatedMe}
+default     = EasyWorkspacesCreatedMe
 }
 
 variable "tfe_vars_sensitive" {
