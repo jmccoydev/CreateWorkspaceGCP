@@ -13,8 +13,6 @@
 # The Values can be changed for use in the newly-created Workspace
 # Additional values could be added here (ex. branch, etc.)
 
-workspace_name = "EasyWorkspacesCreatedMe"
-
 
 tfe_vars_sensitive = {
     foo = "bar"
