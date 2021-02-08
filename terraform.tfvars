@@ -12,20 +12,21 @@
 
 # The Values can be changed for use in the newly-created Workspace
 # Additional values could be added here (ex. branch, etc.)
-
-
-tfe_vars_sensitive = {
-    foo = "bar"
-}
-
-env_vars_sensitive  = {
-    Bob = "Alice"
-}
-
-tfe_vars_nonsensitive = {
-    foo = "bar"
-}
-
-env_vars_nonsensitive  = {
-    Bob = "Alice"
-}
+# Exapmles below
+#
+#
+#tfe_vars_sensitive = {
+#    foo = "bar"
+#}
+#
+#env_vars_sensitive  = {
+#    Bob = "Alice"
+#}
+#
+#tfe_vars_nonsensitive = {
+#    foo = "bar"
+#}
+#
+#env_vars_nonsensitive  = {
+#    Bob = "Alice"
+#}
