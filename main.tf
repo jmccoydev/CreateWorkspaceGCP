@@ -1,13 +1,16 @@
 provider "tfe" {
-  version = "~> 0.15.0"
-  token = var.token
+    token = var.token
 }
 
 resource "tfe_workspace" "main" {
   name              = var.workspace_name
   organization      = var.organization
-  auto_apply        = "true"
-  queue_all_runs    = "true"
+  vcs_repo {
+    identifier      = var.vcs_repo
+    oauth_token_id  = var.oauth_token_id
+  }
+  auto_apply        = "false"
+  queue_all_runs    = "false"
   terraform_version = "0.12.3"
 }
 

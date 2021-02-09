@@ -1,23 +1,34 @@
 # THESE VALUES CAN BE MANAGED WITHIN THE WORKSPACE ITSELF
 # The Values are unchanging in the 'Master' Workspace
 
+variable "AWS_ACCESS_KEY_ID" {
+}
+
+variable "AWS_SECRET_ACCESS_KEY" {
+}
+
+variable "AWS_SESSION_TOKEN" {
+}
+
 variable "token" {
 }
 
 variable "organization" {
 }
 
-#variable "vcs_repo" {
-#}
+variable "vcs_repo" {
+}
 
-#variable "oauth_token_id" {
-#}
+variable "oauth_token_id" {
+}
+
+variable "workspace_name" {
+}
+
 
 # The Values can be changed for use in the newly-created Workspace
 # Additional values could be added here (ex. branch, etc.)
 
-variable "workspace_name" {
-}
 
 variable "tfe_vars_sensitive" {
   type        = map(string)
