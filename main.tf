@@ -11,7 +11,7 @@ resource "tfe_workspace" "main" {
   }
   auto_apply        = "false"
   queue_all_runs    = "false"
-  terraform_version = "0.12.3"
+  terraform_version = "0.12.29"
 }
 
 resource "tfe_variable" "tfvars_sensitive" {
