@@ -16,9 +16,9 @@ AWS_SESSION_TOKEN           = ""
 
 
 tfe_vars_sensitive = {
-    aws_secret_key          = "WMXbcX8POmqdGZLE0j/dIzzor/LRJaQSf3Q0jiJB"
-    aws_session_token       = "IQoJb3JpZ2luX2VjEIT//////////wEaCXVzLWVhc3QtMSJHMEUCIBvP1yV3IDMBkBn0Zyp+W/Fsqz4zHFrZb7PCUVwna0viAiEAgn1T8SMC/uRkgGf6f7Ua3izkzdEuNo3oFr2g+qJNOCgqxwIIfRABGgw3MTExMjkzNzU2ODgiDP3oBKm7jhicnRnobiqkApfVipcm+xQ/Q2jzELm98uUkMhqkLDJnJjpXTaADc/1inRWlu/0nsacMOH6y+95XJYDIr0B3+00mX2WiFS2tkVjycxfcJMz2d8eJrJAWAnJLR0ILcnN0ohJiHchztIkIpTYpflLu47ShGrJQ4pY2wlSpJS+sWKB5asftGwp1t66zFSzDhlioIy3g+d+n1hNSJFfjpQBB3QaiajxQJERGs7L4Ir2Z3rnw1n4FuVCuJnBuYGxeswfetm59TnFH6icd5hmbfuqhcSzw92GHHY3e4qJ8YJtTvKZCI8Kj6Qlljk59GVH4eW4wFac6tJKtGiamD33yvaPpCorRnmFSjvaW8jY5E/HWLGqiCenoRd8KfYaP/g3cTElmnlkYLeMEy9CkrBsBccwwzaKGgQY6nQEucwn2qXvEnNbYI8sqXo3VU1ZyTdnUJo4igmIaCptNr7wrOxYQpVJnWYwQ74qCJ1O3bAy6qnbuBNFCZG6onbdqDnVgtQoXTt2RNVPSg28RmkclRMcFt0cbTkmCwPAKegu+2QJ7wA+JhwrjJaHiaKiLUsbNbj+rs2d2Rp0ha3cp+84JDdq5WIpB4M/CqR26ROvmNyZaO//SbU5d0imf"
-    aws_access_key          = "ASIA2LEU5EPENK5LUJU5"
+    aws_secret_key          = ""
+    aws_session_token       = ""
+    aws_access_key          = ""
 }
 
 env_vars_sensitive  = {  
