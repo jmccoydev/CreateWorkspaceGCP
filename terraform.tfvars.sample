@@ -2,11 +2,11 @@
 # The Values are unchanging in the 'Master' Workspace
 
 token                       = ""
-organization                = "devworks"
-workspace_name              = "workspace_creation_test"
-vcs_repo                    = "jmccoydev/terraform-simple-instance"
-oauth_token_id              = "ot-LjuUAApfA3UBu5hH"
-AWS_ACCESS_KEY_ID           = "ASIA2LEU5EPENK5LUJU5"
+organization                = ""
+workspace_name              = ""
+vcs_repo                    = ""
+oauth_token_id              = ""
+AWS_ACCESS_KEY_ID           = ""
 AWS_SECRET_ACCESS_KEY       = ""
 AWS_SESSION_TOKEN           = ""              
 
@@ -26,13 +26,13 @@ env_vars_sensitive  = {
 
 tfe_vars_nonsensitive = {
     aws_region              = "us-east-2"
-    key_pair                = "jmccoy-sedemos"
-    prefix                  = "jmccoy-test"
-    instance_type           = "t3.medium"
-    owner                   = "jmccoy-test"
-    ttl                     = "6000"
-    hc_region               = "northeast"
-    purpose                 = "special"
+    key_pair                = ""
+    prefix                  = ""
+    instance_type           = ""
+    owner                   = ""
+    ttl                     = ""
+    hc_region               = ""
+    purpose                 = ""
 }
 
 env_vars_nonsensitive  = {
