@@ -1,1 +1,34 @@
-Terraform for TFE Workspace Demo
+# THESE VALUES CAN BE MANAGED WITHIN THE WORKSPACE ITSELF
+# The Values are unchanging in the 'Master' Workspace
+
+token                       = ""  <-- TFC API token  
+organization                = ""  <-- TFC organization 
+workspace_name              = ""  <-- Name of the workspace you want to create
+vcs_repo                    = ""  <-- Format follows <organization>/<repository>
+oauth_token_id              = ""  <-- Oauth token id from TFC organization VCS integration (reference image below)
+AWS_ACCESS_KEY_ID           = ""  <-- AWS Access key
+AWS_SECRET_ACCESS_KEY       = ""  <-- AWS Secret Key
+AWS_SESSION_TOKEN           = ""  <-- AWS Session token if you use them            
+
+# The Values can be changed for use in the newly-created Workspace
+# Additional values could be added here (ex. branch, etc.)
+# Exapmles below
+#
+
+tfe_vars_sensitive = {
+    foo = "bar"
+}
+
+env_vars_sensitive  = {
+    Bob = "Alice"
+}
+
+tfe_vars_nonsensitive = {
+    foo = "bar"
+}
+
+env_vars_nonsensitive  = {
+    Bob = "Alice"
+}
+
+
