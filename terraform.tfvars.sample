@@ -11,26 +11,15 @@ oauth_token_id              = ""
 # Additional values could be added here (ex. branch, etc.)
 
 tfe_vars_sensitive = {
-    ARM_SUBSCRIPTION_ID     = ""
-    ARM_CLIENT_ID           = ""
-    ARM_TENANT_ID           = ""
-    ARM_CLIENT_SECRET       = ""
-    azure_instance_username = ""
-    azure_instance_password = ""
+    GOOGLE_APPLICATION_CREDENTIALS = ""
+    foo = "bar"
 }
 
 env_vars_sensitive  = {  
 }
 
 tfe_vars_nonsensitive = {
-    aws_region              = "us-east-2"
-    key_pair                = ""
-    prefix                  = ""
-    instance_type           = ""
-    owner                   = ""
-    ttl                     = ""
-    hc_region               = ""
-    purpose                 = ""
+    gcp_region              = ""
 }
 
 env_vars_nonsensitive  = {
