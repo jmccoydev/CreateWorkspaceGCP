@@ -12,12 +12,6 @@ organization                = ""  <-- TFC organization
 workspace_name              = ""  <-- Name of the workspace you want to create
 vcs_repo                    = ""  <-- Format follows <organization>/<repository>
 oauth_token_id              = ""  <-- Oauth token id from TFC organization VCS integration 
-ARM_SUBSCRIPTION_ID
-ARM_CLIENT_ID
-ARM_TENANT_ID
-ARM_CLIENT_SECRET
-azure_instance_username
-azure_instance_password            
 
 # The Values can be changed for use in the newly-created Workspace
 # Additional values could be added here (ex. branch, etc.)
@@ -25,6 +19,12 @@ azure_instance_password
 #
 
 tfe_vars_sensitive = {
+    ARM_SUBSCRIPTION_ID = ""
+    ARM_CLIENT_ID = ""
+    ARM_TENANT_ID = ""
+    ARM_CLIENT_SECRET = ""
+    azure_instance_username = ""
+    azure_instance_password = ""
     foo = "bar"
 }
 
