@@ -1,3 +1,8 @@
+1. Copy the terraform.tfvars.sample file to terraform.tfvars
+2. Insert the required variables as explained below.
+3. terraform init ; terraform plan ; terraform apply
+4. Go check your TFC account/organization to see your new workspace.
+
 # THESE VALUES CAN BE MANAGED WITHIN THE WORKSPACE ITSELF
 # The Values are unchanging in the 'Master' Workspace
 
