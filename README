@@ -1,7 +1,8 @@
-1. Copy the terraform.tfvars.sample file to terraform.tfvars
-2. Insert the required variables as explained below.
-3. terraform init ; terraform plan ; terraform apply
-4. Go check your TFC account/organization to see your new workspace.
+1. Clone this repo 
+2. Copy the terraform.tfvars.sample file to terraform.tfvars
+3. Insert the required variables as explained below.
+4. terraform init ; terraform plan ; terraform apply
+5. Go check your TFC account/organization to see your new workspace.
 
 # THESE VALUES CAN BE MANAGED WITHIN THE WORKSPACE ITSELF
 # The Values are unchanging in the 'Master' Workspace
@@ -10,7 +11,7 @@ token                       = ""  <-- TFC API token
 organization                = ""  <-- TFC organization 
 workspace_name              = ""  <-- Name of the workspace you want to create
 vcs_repo                    = ""  <-- Format follows <organization>/<repository>
-oauth_token_id              = ""  <-- Oauth token id from TFC organization VCS integration (reference image below)
+oauth_token_id              = ""  <-- Oauth token id from TFC organization VCS integration 
 AWS_ACCESS_KEY_ID           = ""  <-- AWS Access key
 AWS_SECRET_ACCESS_KEY       = ""  <-- AWS Secret Key
 AWS_SESSION_TOKEN           = ""  <-- AWS Session token if you use them            
