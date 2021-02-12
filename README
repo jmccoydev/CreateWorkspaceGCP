@@ -19,12 +19,7 @@ oauth_token_id              = ""  <-- Oauth token id from TFC organization VCS i
 #
 
 tfe_vars_sensitive = {
-    ARM_SUBSCRIPTION_ID = ""
-    ARM_CLIENT_ID = ""
-    ARM_TENANT_ID = ""
-    ARM_CLIENT_SECRET = ""
-    azure_instance_username = ""
-    azure_instance_password = ""
+    GOOGLE_APPLICATION_CREDENTIALS = ""
     foo = "bar"
 }
 
