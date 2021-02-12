@@ -1,11 +1,16 @@
+Terraform Cloud (TFC) is an application that manages Terraform runs in a consistent and reliable environment instead of on your local machine. 
+It stores shared state and secret data, and connects to version control systems so that you and your team can work on infrastructure as code within your usual code workflow.
+
+Creating workspaces in the UI can be tedious.  
+The code in this repo is mean to automate that process by adding desired variables and integrating the workspace with the VCS repo of your choice.   
+
 1. Clone this repo 
 2. Copy the terraform.tfvars.sample file to terraform.tfvars
 3. Insert the required variables as explained below.
 4. terraform init ; terraform plan ; terraform apply
 5. Go check your TFC account/organization to see your new workspace.
 
-# THESE VALUES CAN BE MANAGED WITHIN THE WORKSPACE ITSELF
-# The Values are unchanging in the 'Master' Workspace
+# This set of variables are used to create and configure the workspace we are creating.  
 
 token                       = ""  <-- TFC API token  
 organization                = ""  <-- TFC organization 
@@ -13,10 +18,7 @@ workspace_name              = ""  <-- Name of the workspace you want to create
 vcs_repo                    = ""  <-- Format follows <organization>/<repository>
 oauth_token_id              = ""  <-- Oauth token id from TFC organization VCS integration 
 
-# The Values can be changed for use in the newly-created Workspace
-# Additional values could be added here (ex. branch, etc.)
-# Exapmles below
-#
+# The following variables will be created in the workspace we are creating.
 
 tfe_vars_sensitive = {
     GOOGLE_APPLICATION_CREDENTIALS = ""
