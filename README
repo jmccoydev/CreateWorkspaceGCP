@@ -2,7 +2,7 @@ Terraform Cloud (TFC) is an application that manages Terraform runs in a consist
 It stores shared state and secret data, and connects to version control systems so that you and your team can work on infrastructure as code within your usual code workflow.
 
 Creating workspaces in the UI can be tedious.  
-The code in this repo is mean to automate that process by adding desired variables and integrating the workspace with the VCS repo of your choice.   
+The code in this repo is meant to automate that process by adding desired variables and integrating the workspace with the VCS repo of your choice.   
 
 1. Clone this repo 
 2. Copy the terraform.tfvars.sample file to terraform.tfvars
