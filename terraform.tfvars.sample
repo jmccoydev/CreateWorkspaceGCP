@@ -6,19 +6,17 @@ organization                = ""
 workspace_name              = ""
 vcs_repo                    = ""
 oauth_token_id              = ""
-AWS_ACCESS_KEY_ID           = ""
-AWS_SECRET_ACCESS_KEY       = ""
-AWS_SESSION_TOKEN           = ""              
 
 # The Values can be changed for use in the newly-created Workspace
 # Additional values could be added here (ex. branch, etc.)
-<<<<<<< HEAD:terraform.tfvars
-
 
 tfe_vars_sensitive = {
-    aws_secret_key          = ""
-    aws_session_token       = ""
-    aws_access_key          = ""
+    ARM_SUBSCRIPTION_ID     = ""
+    ARM_CLIENT_ID           = ""
+    ARM_TENANT_ID           = ""
+    ARM_CLIENT_SECRET       = ""
+    azure_instance_username = ""
+    azure_instance_password = ""
 }
 
 env_vars_sensitive  = {  
@@ -37,23 +35,3 @@ tfe_vars_nonsensitive = {
 
 env_vars_nonsensitive  = {
 }
-=======
-# Exapmles below
-#
-#
-#tfe_vars_sensitive = {
-#    foo = "bar"
-#}
-#
-#env_vars_sensitive  = {
-#    Bob = "Alice"
-#}
-#
-#tfe_vars_nonsensitive = {
-#    foo = "bar"
-#}
-#
-#env_vars_nonsensitive  = {
-#    Bob = "Alice"
-#}
->>>>>>> 387ab880e85f6070b7d98357bac1a3f79e0f441e:terraform.tfvars.sample
