@@ -1,26 +1,26 @@
-# THESE VALUES CAN BE MANAGED WITHIN THE WORKSPACE ITSELF
-# The Values are unchanging in the 'Master' Workspace
+# This set of variables are used to create and configure the workspace we are creating.  
 
-token                       = ""
-organization                = ""
-workspace_name              = ""
-vcs_repo                    = ""
-oauth_token_id              = ""
+token                       = ""  <-- TFC API token  
+organization                = ""  <-- TFC organization 
+workspace_name              = ""  <-- Name of the workspace you want to create
+vcs_repo                    = ""  <-- Format follows <organization>/<repository>
+oauth_token_id              = ""  <-- Oauth token id from TFC organization VCS integration 
 
-# The Values can be changed for use in the newly-created Workspace
-# Additional values could be added here (ex. branch, etc.)
+# The following variables will be created in the workspace we are creating.
 
 tfe_vars_sensitive = {
     GOOGLE_APPLICATION_CREDENTIALS = ""
     foo = "bar"
 }
 
-env_vars_sensitive  = {  
+env_vars_sensitive  = {
+    Bob = "Alice"
 }
 
 tfe_vars_nonsensitive = {
-    gcp_region              = ""
+    foo = "bar"
 }
 
 env_vars_nonsensitive  = {
+    Bob = "Alice"
 }
