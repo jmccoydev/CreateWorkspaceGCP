@@ -12,9 +12,12 @@ organization                = ""  <-- TFC organization
 workspace_name              = ""  <-- Name of the workspace you want to create
 vcs_repo                    = ""  <-- Format follows <organization>/<repository>
 oauth_token_id              = ""  <-- Oauth token id from TFC organization VCS integration 
-AWS_ACCESS_KEY_ID           = ""  <-- AWS Access key
-AWS_SECRET_ACCESS_KEY       = ""  <-- AWS Secret Key
-AWS_SESSION_TOKEN           = ""  <-- AWS Session token if you use them            
+ARM_SUBSCRIPTION_ID
+ARM_CLIENT_ID
+ARM_TENANT_ID
+ARM_CLIENT_SECRET
+azure_instance_username
+azure_instance_password            
 
 # The Values can be changed for use in the newly-created Workspace
 # Additional values could be added here (ex. branch, etc.)
@@ -36,5 +39,3 @@ tfe_vars_nonsensitive = {
 env_vars_nonsensitive  = {
     Bob = "Alice"
 }
-
-
