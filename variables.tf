@@ -1,15 +1,6 @@
 # THESE VALUES CAN BE MANAGED WITHIN THE WORKSPACE ITSELF
 # The Values are unchanging in the 'Master' Workspace
 
-variable "AWS_ACCESS_KEY_ID" {
-}
-
-variable "AWS_SECRET_ACCESS_KEY" {
-}
-
-variable "AWS_SESSION_TOKEN" {
-}
-
 variable "token" {
 }
 
